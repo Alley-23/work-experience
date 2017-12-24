@@ -1,0 +1,147 @@
+.page-group-index .group-title{
+    background-image: url("../../image/title-book2.png");
+}
+
+.page-group-index .group-recommend-section{
+    height: 140px;
+    padding: 0;
+}
+.group-recommend-section .recommend-item-info em{
+    font-size: 18px;
+}
+.group-recommend-section .recommend-item-info span{
+    font-size: 12px;
+}
+.group-recommend-section .group-recommend-item{
+    padding: 0;
+}
+.group-recommend-item-l{
+    height: 140px;
+    vertical-align: middle;
+}
+.group-recommend-item-l .sprite-cake{
+    margin: 15px 0 5px;
+    width: 100%;
+    background-image: url("../../image/sprite-cake1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: contain;
+}
+.group-recommend-item-l .sprite-invitation{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.group-recommend-section .group-recommend-item-t{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #ebf0f7;
+    padding: 0.4rem 0 0 0.6rem;
+}
+
+.group-recommend-section .group-recommend-item-b{
+    height: 60px;
+    width: 100%;
+    padding: 0.4rem 0 0 0.6rem;
+}
+.group-recommend-section .group-recommend-item-t .sprite-hat{
+    background-image: url("../../image/sprite-cake2.png");
+    background-repeat: no-repeat;
+    margin-top: 4px;
+}
+.group-recommend-section .group-recommend-item-b .sprite-cake{
+    background-image: url("../../image/sprite-cake1.png");
+    background-repeat: no-repeat;
+    margin-top: 2px;
+}
+
+.group-recommend-item-l .recommend-item-info{
+    width: 100%;
+    text-align: center;
+}
+.group-theme-title{
+    padding: 14px 10px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.group-theme-title .group-theme-recommend a{
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 20px;
+    color: #f467aa;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #f467aa;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.group-theme-name{
+    height: 20px;
+    overflow: hidden;
+}
+.group-theme-title .group-theme-name a.active{
+    color: #f467aa;
+}
+.group-theme-title .group-theme-name a{
+    color: #333;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.theme-item-desc{
+ font-size: 12px;
+}
+
+.group-theme-list .theme-item-title{
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+.group-theme-list .theme-item{
+    position: relative;
+}
+.group-theme-countdown{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 3px;
+    width: 115px;
+    height: 37px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 16px;
+    background-color: rgba(244,103,170,.8);
+}
+p.countdown-end{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.countdown-time p{
+    margin: 0;
+    padding: 0;
+}
+
+.theme-item-desc .label:after{
+    content: ':';
+    margin-right: 10px;
+    margin-left: 3px;
+}
+.theme-item-desc .label i {
+    font-style: normal;
+}
+
+.theme-item-price{
+    padding: 0;
+    margin: 5px 0;
+    color: #f467aa;
+    font-size: 18px;
+}

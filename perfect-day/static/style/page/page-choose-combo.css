@@ -1,0 +1,107 @@
+.page-choose-combo .status-text {
+    display: block;
+    text-align: center;
+    color: #333;
+    margin: 10px 0;
+}
+.page-choose-combo .btn-colorful {
+    margin: 0 10px;
+}
+.page-choose-combo .footer {
+    height: 62px;
+}
+.page-choose-combo .footer .btn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.page-choose-combo .combo-list {
+    margin-bottom: 20px;
+}
+.page-choose-combo .combo-info {
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 10px;
+    font-size: 16px;
+}
+.page-choose-combo .combo-item:last-child .combo-info {
+    border-bottom: 0;
+}
+.page-choose-combo .combo-price {
+    color: #e968a1;
+    margin-left: 10px;
+}
+.page-choose-combo .combo-price:before {
+    content: '¥';
+    font-size: 12px;
+}
+.page-choose-combo .combo-info .checkbox {
+    width: 30px;
+    text-align: center;
+}
+
+.page-choose-combo .combo-product-list {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.page-choose-combo .combo-product-list .title {
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    background-image: url(../../image/color-line.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding: 0 0 20px 0;
+    margin: 0 0 10px 0;
+}
+
+.page-choose-combo .combo-product-list .title em {
+    color: #e968a1;
+    font-style: normal;
+    margin-right: 2px;
+}
+
+.page-choose-combo .combo-product-list .title em i {
+    display: inline-block;
+    border: 2px solid #e968a1;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+.page-choose-combo .combo-product-list dl {
+    font-size: 14px;
+    background: #fff;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.page-choose-combo .combo-product-list dl:nth-child(odd) {
+    background: #f0faff;
+}
+.page-choose-combo .combo-product-list dt {
+    margin-bottom: 5px;
+}
+.page-choose-combo .combo-product-list dt span {
+    color: #fff;
+    display: inline-block;
+    background-image: url(../../image/brush-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 100% 20px;
+    padding: 0 10px;
+}
+
+.page-choose-combo .combo-product-list dd {
+    line-height: 18px;
+    margin-left: 20px;
+    display: block;
+}
+
+.page-choose-combo .combo-product-list .item-pink {
+    color: #e968a1;
+}

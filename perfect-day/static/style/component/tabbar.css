@@ -1,0 +1,31 @@
+.tabbar {
+    height: 49px;
+    width: 16rem;
+}
+.tabbar-wrapper {
+    border-top: 1px solid #e2e6ed;
+    height: 49px;
+    width: 16rem;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+.tabbar-item {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+}
+.tabbar-item a {
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0);
+    background-size: auto 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1.8rem;
+    width: 100%;
+}
+.tabbar-item a i {
+    vertical-align: middle;
+}

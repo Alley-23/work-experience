@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        recalc();
+    })(document, window);
+    </script>
+    <title>完美主题派对</title>
+    <style media="screen">
+        body {
+            padding: 0;
+            font: 14px/1.5 'Hiragino Sans GB','micrlsoft yahei',arial,\5b8b\4f53,sans-serif;
+            -webkit-font-smoothing: antialiased;
+            margin: 0;
+        }
+
+        body > * {
+            display: none !important;
+        }
+
+        #app {
+            display: block !important;
+        }
+    </style>
+    <script>
+    window.__IS_SERVER__ = false;
+    window.__IS_CLIENT__ = true;
+    window.__INIT_DATA__ = undefined;
+    </script>
+    <link rel="stylesheet" href="http://s1.wm1t.com/static/party/h5/index.css">
+    <link rel="stylesheet" href="../style/page/page-album.css">
+</head>
+<body>
+    <div id="app">
+        <div class="pages">
+            <div class="page page-album">
+                <p class="tit">王琛玥小朋友8岁生日相册</p>
+                <div class="content">
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-on"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-on"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                    <div class="m-sub"><img src=""><a href="javascript:void(0)" class="icon icon-check-off"></a></div>
+                </div>
+                <div class="ft">
+                    下载说明
+                    <p class="equal-table"><span class="num">1.</span><span class="de">点击查看大图，长按图片选择保存至本地。</span></p>
+                    <p class="equal-table"><span class="num">2.</span><span class="de">该相册图片分辨率适配于网络，如需原图请联系您的派对管家。</span></p>
+                </div>
+                <!-- 底部固定 -->
+                <div class="fixed-bottom">
+                    <div class="fixed-bottom-pink">分享该相册</div>
+                </div>
+
+           </div>
+    </div>
+    <script>
+        (function () {
+            if (/micromessenger/i.test(window.navigator.userAgent)) {
+                document.write(unescape('%3C') + 'script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"'+unescape('%3E%3C') +'/script' + unescape('%3E'));
+                document.body.classList.add('weixin');
+            }
+
+            if (/iPad|iPhone|iPod/.test(window.navigator.userAgent)) {
+                document.body.classList.add('ios');
+            }
+
+            if (/android/i.test(window.navigator.userAgent)) {
+                document.body.classList.add('android');
+            }
+            function onResize() {
+                document.getElementsByClassName('pages')[0].style.height = document.documentElement.clientHeight + 'px';
+            }
+            window.addEventListener('resize', onResize, false);
+            onResize();
+        })();
+    </script>
+</body>
+</html>

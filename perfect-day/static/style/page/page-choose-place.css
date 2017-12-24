@@ -1,0 +1,60 @@
+.page-choose-place .checkbox {
+    width: 30px;
+    text-align: center;
+}
+.page-choose-place .footer {
+    height: 62px;
+    width: 100%;
+}
+
+.page-choose-place .footer .btn {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.page-choose-place .service-btn {
+    margin: 20px 5px;
+}
+.page-choose-place .place-list {
+    padding-top: 45px;
+    position: static;
+}
+.page-choose-place .place-list .place-filter {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+.page-choose-place .place-item .place-detail {
+    border-top: 1px solid #f0f0f0;
+    margin-top: 10px;
+}
+.page-choose-place .place-detail-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    margin: 0;
+    line-height: 30px
+}
+.page-choose-place .place-detail-list {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+    padding: 0 0 0 20px;
+    line-height: 20px;
+}
+.page-choose-place .place-detail-price {
+    color: #f467aa;
+    font-size: 14px;
+}
+.page-choose-place .place-detail-price:before {
+    content: '¥';
+    font-size: 12px;
+}
+.page-choose-place .place-detail-comment {
+    font-size: 12px;
+    bottom: 0;
+    color: #999;
+    margin-left: 5px;
+}

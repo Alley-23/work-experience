@@ -1,0 +1,39 @@
+import {
+    PHOTO_LIST_FETCHING,
+    PHOTO_LIST_FETCH_SUCCESS,
+    PHOTO_lIST_FETCH_FAIL,
+    PHOTO_DETAIL_FETCHING,
+    PHOTO_DETAIL_FETCH_SUCCESS,
+    PHOTO_DETAIL_FETCH_FAIL,
+    SHARE_PHOTO_FETCHING,
+    SHARE_PHOTO_FETCH_SUCCESS,
+    SHARE_PHOTO_FETCH_FAIL,
+    ALBUM_SHARE_FETCHING,
+    ALBUM_SHARE_FETCH_SUCCESS,
+    ALBUM_SHARE_FETCH_FAIL
+} from '../constant';
+import { createAjaxReducer } from '../util';
+
+export const photoList = createAjaxReducer(
+    PHOTO_LIST_FETCHING,
+    PHOTO_LIST_FETCH_SUCCESS,
+    PHOTO_lIST_FETCH_FAIL
+);
+
+export const photoDetail = createAjaxReducer(
+    PHOTO_DETAIL_FETCHING,
+    PHOTO_DETAIL_FETCH_SUCCESS,
+    PHOTO_DETAIL_FETCH_FAIL
+);
+
+export const sharePhotoList = createAjaxReducer(
+    SHARE_PHOTO_FETCHING,
+    SHARE_PHOTO_FETCH_SUCCESS,
+    SHARE_PHOTO_FETCH_FAIL
+);
+
+export const albumShare = createAjaxReducer(
+    ALBUM_SHARE_FETCHING,
+    ALBUM_SHARE_FETCH_SUCCESS,
+    ALBUM_SHARE_FETCH_FAIL
+);

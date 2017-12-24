@@ -1,0 +1,32 @@
+.page-payment-status {
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.page-payment-status .status-text {
+    color: #e96a81;
+    font-size: 18px;
+}
+.page-payment-status .status-text i {
+    height: 36px;
+    width: 36px;
+    vertical-align: -10px;
+    margin-right: 10px;
+}
+.page-payment-status .remind {
+    font-size: 14px;
+    color: #666;
+}
+.page-payment-status .footer {
+    position: absolute;
+    bottom: 45px;
+    color: #666;
+    font-size: 14px;
+    width: 100%;
+}
+.page-payment-status .footer em {
+    font-size: 16px;
+}
+.page-payment-status .btn-block {
+    margin: 0 5px;
+}

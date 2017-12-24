@@ -1,0 +1,15 @@
+.page-order-list .bd .order-quantity {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -9px;
+    color: #333;
+    font-size: 12px;
+}
+
+.page-order-list .order-item .hd .order-confirm {
+    min-width: 45px;
+    display: block;
+    color: #e968a1;
+    font-size: 12px;
+}

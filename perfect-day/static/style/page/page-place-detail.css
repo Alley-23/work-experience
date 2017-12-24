@@ -1,0 +1,64 @@
+.page-place-detail .place-image-section {
+    background: #fff;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+
+.page-place-detail .place-image-section-title {
+    margin: 0;
+    font-weight: normal;
+}
+.page-place-detail .place-image-section-title i {
+    margin-right: 5px;
+    vertical-align: -2px;
+    width: 20px;
+    height: 20px;
+}
+.page-place-detail .place-image-section .place-image {
+    margin-top: 10px;
+}
+
+.page-place-detail .place-image-desc {
+    color: #999;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    line-height: 1;
+}
+.page-place-detail .place-image-desc::before {
+    content: '';
+    display: inline-block;
+    border: 2px solid #e968a1;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+.page-place-detail .place-address {
+    color: #999;
+    display: block;
+}
+.page-place-detail .place-detail-price {
+    color: #e968a1;
+    font-size: 12px;
+}
+.page-place-detail .place-detail-price em {
+    font-size: 14px;
+    font-style: normal;
+}
+.page-place-detail .item-info-row {
+    border-bottom: 1px dashed #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.page-place-detail .item-info-row:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.page-place-detail .place-detail {
+    margin: 0;
+    padding: 0 0 0 15px;
+    color: #999;
+}
+.page-place-detail .item-info-row .comment-text {
+    color: #999;
+}

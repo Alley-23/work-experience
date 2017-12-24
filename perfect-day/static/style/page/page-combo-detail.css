@@ -1,0 +1,16 @@
+.page-combo-detail .combo-price-label {
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    padding: 0 2px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #e968a1;
+    margin-right: 5px;
+}
+
+.page-combo-detail .combo-origin-price {
+    color: #999;
+    font-size: 12px;
+    margin-left: 5px;
+}

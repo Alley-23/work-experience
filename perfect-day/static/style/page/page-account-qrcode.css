@@ -1,0 +1,81 @@
+.page-account-qrcode {
+    padding-top: 0.3rem;
+}
+
+.page-account-qrcode .my_codes {
+    background-color: #fff;
+    margin: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.page-account-qrcode .userpics {
+    margin: 0;
+    text-align: center;
+}
+
+.page-account-qrcode .userpics img {
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 1px solid #fff;
+    border-radius: 3.2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+.page-account-qrcode .telphone {
+    text-align: center;
+    margin: 0;
+}
+
+.page-account-qrcode .my_codes_pic {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.page-account-qrcode .my_codes_pic .qrcode {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #f0f0f0;
+    padding: 0.5rem;
+}
+
+.page-account-qrcode .my_codes_pic .qrcode:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -1px;
+    bottom: -1px;
+    width: 7rem;
+}
+
+.page-account-qrcode .my_codes_pic .qrcode:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: -1px;
+    right: -1px;
+    height: 7rem;
+}
+
+.page-account-qrcode .my_codes_pic img {
+    position: relative;
+    border: 0px;
+    width: 8rem;
+    height: 8rem;
+    z-index: 2;
+}
+
+.page-account-qrcode .wodezhuanshuewm {
+    position: relative;
+    color: #999;
+    text-align: center;
+    margin: -1rem 0 0 0;
+    z-index: 3;
+}

@@ -1,0 +1,25 @@
+.page-case-list .case-item {
+    margin-top: 10px;
+    padding: 0.5rem;
+    background: #fff;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.page-case-list .case-image {
+    width: 15rem;
+}
+
+.page-case-list .case-title {
+    color: #fff;
+    position: absolute;
+    bottom: .5rem;
+    background: rgba(0,0,0,.5);
+    width: 15rem;
+    margin: 0;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+{
+    "extends": "eslint:recommended",
+    "indent": 4,
+    "globals": {
+        "__IS_CLIENT__": true,
+        "__IS_SERVER__": true
+    },
+    "ecmaFeatures": {
+        "modules": true,
+        "jsx": true
+    },
+    "env": {
+        "es6": true,
+        "commonjs": true,
+        "amd": true,
+        "node": true,
+        "browser": true
+    },
+    "rules": {
+        "no-console": 0,
+        "semi": 2
+    },
+    "plugins": [
+        "react"
+    ]
+}

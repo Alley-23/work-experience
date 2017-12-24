@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            recalc();
+        })(document, window);
+    </script>
+    <title>活动日-订单详情页</title>
+    <style media="screen">
+        body {
+            padding: 0;
+            font: 14px/1.5 'Hiragino Sans GB', 'micrlsoft yahei', arial, \5b8b\4f53, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            margin: 0;
+        }
+
+        body > * {
+            display: none !important;
+        }
+
+        #app {
+            display: block !important;
+        }
+    </style>
+    <script>
+        window.__IS_SERVER__ = false;
+        window.__IS_CLIENT__ = true;
+        window.__INIT_DATA__ = undefined;
+    </script>
+    <link rel="stylesheet" href="../style/temp.css">
+    <link rel="stylesheet" href="../style/page/page-group-order-detail.css">
+</head>
+<body>
+<div id="app">
+    <div data-reactroot="" class="pages">
+        <div class="toast"><span></span></div>
+        <div class="page page-order-detail">
+            <div class="group-order-code">
+                <span class="label">订单编号</span><span> 16071621040013</span>
+            </div>
+            <section class="section">
+                <div class="theme-info row flex">
+                    <div class="theme-image">
+                        <div style="width: 100%; position: relative; display: block; padding-top: 100%; background-color: rgb(234, 237, 243); background-size: 50%; background-position: center center; background-repeat: no-repeat;">
+                            <img src="http://7xl8fp.com2.z0.glb.qiniucdn.com/party%E5%86%B0%E9%9B%AA%E5%A5%87%E7%BC%98%EF%BC%8D%E8%AF%A6%E6%83%85%E9%A1%B5%E5%A4%B4%E5%9B%BE.jpg?imageView2/1/w/140/h/140/"
+                                 alt="" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">
+                        </div>
+                    </div>
+                    <div class="col-flex">
+                        <h1 class="theme-name">大眼萌主题生日派对</h1>
+                        <p class="theme-desc"><span class="label">数量</span><span class="text">2份</span></p>
+                    </div>
+                    <div class="col-flex sprite-phone-field">
+                        <a href="tel:4000128532" class="contact-phone">
+                            <i class="sprite-phone-large"></i>
+                        </a>
+                        <div class="sprite-phone-name">活动管家</div>
+                    </div>
+                </div>
+            </section>
+            <div class="group-order-detail row flex middle">
+                <div class="col-12">
+                    <div class="field">
+                        <span class="label">订单总计</span><span
+                            class="text"> ¥ 15000</span></div>
+                    <div class="field">
+                        <span class="label">派对时间</span>
+                        <span class="text"> 2016 年 7 月 15 日 9:00</span>
+                    </div>
+                    <div class="field">
+                        <span class="label">派对地点</span>
+                        <span class="text">北京市朝阳区七圣中街 12 号爱琴海购物中心 3F</span>
+                    </div>
+                    <div class="field">
+                        <span class="label"><i>备</i> <i>注</i></span>
+                        <span class="text group-order-remark">孩子喜欢粉红,清真</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="main ">
+                <div class="section">
+                    <h2 class="section-title"><i class="sprite-prepare"></i>
+                        活动完成</h2>
+                    <div class="content">
+                        <p class="content-text group-order-content-text"> 本次服务以结束，欢迎致电400-888-8888
+                            反馈您的服务体验。
+                        </p>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 class="section-title">
+                        <i class="sprite-note-circle"></i> 活动即将开始
+                    </h2>
+                    <div class="content">
+                        <p class="content-text group-order-content-text"> 您参加的“xxxx”活动于明天12:00开始，
+                            请于11:40到xx场地集合。（提前24小时
+                            通知。集合时间提前20分钟）
+                        </p>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 class="section-title"><i class="sprite-prepare"></i>
+                        活动已确认</h2>
+                    <div class="content">
+                        <p class="content-text group-order-content-text"> 您的活动已确认。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+<script src="http://s1.wm1t.com/static/party/h5/lib.js"></script>
+<script src="http://s1.wm1t.com/static/party/h5/app.js"></script>
+
+
+</body>
+</html>
